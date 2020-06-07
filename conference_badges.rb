@@ -20,3 +20,6 @@ def batch_badge_creator(badges)
   end
   new_arr
 end
+
+
+def 
