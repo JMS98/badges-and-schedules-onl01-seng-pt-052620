@@ -8,14 +8,14 @@ end
  
 def batch_badge_creator(badges)
     badges.map do |name|
-     "Hello, my name is #{name}."
-      end
+    "Hello, my name is #{name}."
+    end
   end
    
    
    def assign_rooms(badges)
   new_arr = []
-  name.each_with_index do |room,i|
+  badges.each_with_index do |room,i|
     new_arr << "Hello #{name}! You'll be assigned to room #{i+1}!"
   end
   new_arr
