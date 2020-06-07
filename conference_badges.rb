@@ -22,4 +22,5 @@ def batch_badge_creator(badges)
 end
 
 
-def 
+def printer(badges)
+  puts batch_badge_creator
